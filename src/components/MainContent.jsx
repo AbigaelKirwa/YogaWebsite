@@ -12,11 +12,11 @@ function MainContent(){
                 is a sanctuary where you can escape the stresses of everyday life.
             </p>
             <div className='mx-20 mt-12'>
-                <button className='w-full h-16  rounded-full text-xl text-white bg-gradient-to-r from-[#D7763F] to-[#D86E32]'>Learn More</button>
+                <button className='w-full h-16  rounded-full text-xl font-semibold text-white bg-gradient-to-r from-[#D7763F] to-[#D86E32]'>Learn More</button>
             </div>
         </div>
-        <div id="main-pic" className='mt-[-40px] ml-32'>
-            <img src={MainImg} alt="website main image"  className='w-[80%]'/>
+        <div id="main-pic" className='mt-[-80px] ml-28'>
+            <img src={MainImg} alt="website main image"  className='w-[90%]'/>
         </div>
     </div>
   )
