@@ -1,9 +1,11 @@
 import './Navbar.css';
-import Logo from '../images/logo.png'
+import Logo from '../images/logo.png';
 
 function Navbar(){
+
   return(
-    <div id='nav-overall' className='flex flex-row justify-between'>
+    <div>
+    <div id='desktop-view' className='flex flex-row justify-between max-[841px]:hidden'>
       <div id="navbar">
         {/* this is the menu that is displayed in full screen */}
         <ul className="ml-10 mt-10 flex flex-row gap-20">
@@ -16,6 +18,13 @@ function Navbar(){
       <div id='logo' className='mr-16 mt-7'>
         <img src={Logo} alt='website-logo' className='w-16'></img>
       </div>
+    </div>
+    <div id="mobile-view" className='flex flex-row justify-between min-[841px]:hidden'>
+
+      <div id='logo' className='mr-16 mt-7'>
+        <img src={Logo} alt='website-logo' className='w-16'></img>
+      </div>
+    </div>
     </div>
   )
 }
