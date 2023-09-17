@@ -31,9 +31,9 @@ function Navbar(){
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block rounded-full h-1 w-8 animate-pulse bg-[#733D64]"></span>
+            <span className="block rounded-full h-1 w-8 animate-pulse bg-[#733D64]"></span>
+            <span className="block rounded-full h-1 w-8 animate-pulse bg-[#733D64]"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -42,7 +42,7 @@ function Navbar(){
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-gray-600"
+                className="h-8 w-8 text-[#733D64]"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -54,7 +54,7 @@ function Navbar(){
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between mt-[-70%]">
+            <ul className="flex flex-col items-center justify-between mt-[-30%] max-[485px]:mt-[-55%] max-[310px]:mt-[-80%]">
               <li className="border-b border-gray-400 my-8 uppercase">
                 <a href="/about">About</a>
               </li>

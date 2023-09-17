@@ -11,7 +11,7 @@ function MainContent(){
                 through the transformative practice of yoga. Our studio 
                 is a sanctuary where you can escape the stresses of everyday life.
             </p>
-            <div className='mx-20 mt-12 max-[490px]:mx-10 max-[377px]:mx-5'>
+            <div className='mx-20 mt-12 max-[490px]:mx-10 max-[377px]:mx-5 max-[841px]:mb-10'>
                 <button className='w-full h-16 rounded-full text-xl font-semibold text-white bg-gradient-to-r from-[#D7763F] to-[#D86E32]'>Learn More</button>
             </div>
         </div>
