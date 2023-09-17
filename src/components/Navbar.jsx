@@ -21,7 +21,7 @@ function Navbar(){
       </div>
     </div>
     {/* mobile view */}
-    <div className="flex flex-row-reverse items-center justify-between px-10 py-4 min-[841px]:hidden">
+    <div className="flex flex-row-reverse items-center justify-between px-10 py-4 min-[841px]:hidden max-[410px]:px-5">
       <a href="/">
         <img src={Logo} alt='website-logo' className='w-12'></img>
       </a>
