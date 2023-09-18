@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 function Navbar(){
   const [isNavOpen, setIsNavOpen] = useState(false);
+
   return(
     <div>
     <div id='desktop-view' className='flex flex-row justify-between max-[841px]:hidden'>
@@ -20,6 +21,7 @@ function Navbar(){
         <img src={Logo} alt='website-logo' className='w-16'></img>
       </div>
     </div>
+    
     {/* mobile view */}
     <div className="flex flex-row-reverse items-center justify-between px-10 py-4 min-[841px]:hidden max-[410px]:px-5">
       <a href="/">
@@ -56,29 +58,17 @@ function Navbar(){
             </div>
             <ul className="flex flex-col items-center justify-between mt-[-30%] max-[485px]:mt-[-55%] max-[310px]:mt-[-80%]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About</a>
+                About
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">Services</a>
+                Services
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Contact</a>
+                Contact
               </li>
             </ul>
           </div>
         </section>
-
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
       </nav>
       <style>{`
       .hideMenuNav {
