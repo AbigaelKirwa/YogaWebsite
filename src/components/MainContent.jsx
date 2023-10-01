@@ -1,4 +1,3 @@
-import './MainContent.css';
 import MainImg from '../images/desktop-view.png'
 
 function MainContent(){
@@ -12,7 +11,7 @@ function MainContent(){
                 is a sanctuary where you can escape the stresses of everyday life.
             </p>
             <div className='mx-20 mt-12 max-[490px]:mx-10 max-[377px]:mx-5 max-[841px]:mb-10'>
-                <button className='w-full h-16 rounded-full text-xl font-semibold text-white bg-gradient-to-r from-[#D7763F] to-[#D86E32]'>Learn More</button>
+                <button className='w-full h-16 rounded-full text-xl font-semibold text-white bg-gradient-to-r from-[#D7763F] to-[#D86E32] shadow-2xl shadow-[#9a9a9a]'>Learn More</button>
             </div>
         </div>
         <div id="main-pic" className='mt-[-40px] flex justify-center max-[1130px]:mt-[-35px] max-[1076px]:mt-[10px] max-[1039px]:mt-[10px] max-[975px]:mt-[40px] max-[841px]:ml-0 max-[841px]:mt-0'>
