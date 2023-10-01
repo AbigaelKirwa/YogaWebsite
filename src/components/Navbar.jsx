@@ -42,27 +42,19 @@ function Navbar(){
               className="absolute top-0 ml-[-80%] px-8 py-8"
               onClick={() => setIsNavOpen(false)}
             >
-              <svg
-                className="h-8 w-8 text-[#733D64]"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </svg>
+              <div className="h-8 w-8 ml-3 text-[#733D64] inline-block align-middle">
+                  <span className="h-8 w-0.5 bg-[#733D64] absolute transform -rotate-45 translate-x-2"></span>
+                  <span className="h-8 w-0.5 bg-[#733D64] absolute transform rotate-45 translate-x-2"></span>
+              </div>
             </div>
             <ul className="flex flex-col items-center justify-between mt-[-30%] max-[485px]:mt-[-55%] max-[310px]:mt-[-80%]">
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-gray-400 my-8 uppercase" onClick={() => setIsNavOpen(false)}>
                 About
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-gray-400 my-8 uppercase" onClick={() => setIsNavOpen(false)}>
                 Services
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-gray-400 my-8 uppercase" onClick={() => setIsNavOpen(false)}>
                 Contact
               </li>
             </ul>
