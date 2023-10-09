@@ -5,7 +5,7 @@ function MainContent(){
     <div id='main-overall' className='flex flex-row justify-between max-[841px]:flex-col-reverse'>
         <div id="words" className='mt-20 ml-10 w-2/3 max-[1039px]:w-full max-[841px]:ml-0 max-[841px]:px-10 max-[841px]:mt-10'>
             <h1 className='text-center text-5xl text-[#D86E32] max-[1039px]:text-4xl max-[841px]:text-5xl max-[490px]:text-3xl max-[346px]:leading-[50px]'>Tranquil Yoga Studio</h1>
-            <p className='mt-10 mr-10  text-justify text-[#0C2D29] font-medium leading-[50px] px-5 max-[841px]:mr-0 max-[490px]:px-2 max-[358px]:px-0 max-[346px]:leading-[40px]'>
+            <p className='text-base mt-10 mr-10  text-justify text-[#0C2D29] font-medium leading-[50px] px-5 max-[841px]:mr-0 max-[490px]:px-2 max-[358px]:px-0 max-[346px]:leading-[40px]'>
                 Discover a world of inner peace and physical well-being 
                 through the transformative practice of yoga. Our studio 
                 is a sanctuary where you can escape the stresses of everyday life.
