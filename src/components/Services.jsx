@@ -14,7 +14,7 @@ function Services(){
             <div id="about-main" className="mt-16 grid grid-cols-3 gap-24 px-16 max-[1020px]:gap-16 max-[825px]:grid-cols-2 max-[615px]:grid-cols-1 max-[370px]:gap-10 max-[370px]:px-10">
                 <div id="about-item-one">
                     <div className='flex align-middle justify-center mt-2'>
-                        <img src={Service1} alt="first service" className='w-64 h-52 max-[370px]:w-48 max-[370px]:h-40' />
+                        <img src={Service1} alt="first service" className='w-64 h-[200px] max-[370px]:w-48 max-[370px]:h-40' />
                     </div>
                     <h4 className='text-center mt-5 text-[#9AA473] text-xl'><strong>Stretches</strong></h4>
                     <p className='text-base text-justify leading-[40px] mt-6 max-[370px]:leading-[35px] max-[370px]:text-sm'>
