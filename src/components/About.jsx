@@ -11,12 +11,12 @@ function About(){
                 </div>
             </div>
             <div id="content_main" className='pt-10'>
-                <div id="content_one" className='flex flex-row px-14 max-[936px]:flex-col max-[936px]:px-5 max-[936px]:justify-center max-[936px]:items-center'>
+                <div id="content_one" className='flex flex-row px-14 max-[936px]:flex-col max-[936px]:px-0 max-[936px]:justify-center max-[936px]:items-center'>
                     <div className='flex align-middle justify-center w-3/4 max-[980px]:mt-10 max-[936px]:w-full max-[936px]:justify-center'>
-                        <img src={About1} alt='lady floating' className='w-[70%]'/>
+                        <img src={About1} alt='lady floating' className='w-[70%] max-[936px]:w-[50%]'/>
                     </div>
                     <div className='w-3/4'>
-                        <p className='text-justify px-3 pt-16 leading-[50px] max-[1180px]:pt-5'>
+                        <p className='text-justify px-3 pt-16 leading-[50px] max-[1180px]:pt-5 max-[936px]:px-0'>
                             At Tranquil Yoga Studio, we are more than just a yoga studio; 
                             we are a sanctuary for holistic well-being, a nurturing 
                             space where individuals come together to cultivate harmony 
@@ -28,10 +28,10 @@ function About(){
                 </div>
                 <div id="content_two" className='flex flex-row-reverse px-14 max-[936px]:flex-col max-[936px]:px-5 max-[936px]:justify-center max-[936px]:items-center'>
                     <div className='flex align-middle justify-center w-3/4 pl-40 max-[1080px]:mt-20 max-[980px]:mt-30 max-[936px]:pl-0'>
-                        <img src={About2} alt='lady floating' className='w-[70%] max-[1080px]:w-[80%]'/>
+                        <img src={About2} alt='lady floating' className='w-[70%] max-[1080px]:w-[80%] max-[936px]:w-[60%]'/>
                     </div>
                     <div className='w-3/4'>
-                        <p className='text-justify px-3 pt-16 leading-[50px]'>
+                        <p className='text-justify px-3 pt-16 leading-[50px] max-[936px]:px-0'>
                             Our highly skilled and passionate instructors bring a wealth of 
                             knowledge and expertise, guiding practitioners of all levels on 
                             their unique yoga journeys. From gentle, restorative practices 
