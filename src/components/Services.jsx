@@ -11,8 +11,8 @@ function Services(){
                     <div className="w-24  border-2 border-b-2 border-[#D86E32]"></div>
                 </div>
             </div>
-            <div id="about-main" className="mt-16 grid grid-cols-3 gap-24 px-16 max-[1020px]:gap-16 max-[825px]:grid-cols-2 max-[615px]:grid-cols-1 max-[370px]:gap-10 max-[370px]:px-10">
-                <div id="about-item-one">
+            <div id="about-main" className="mt-16 grid grid-cols-3 gap-24 px-16 justify-center items-center max-[1020px]:gap-16 max-[825px]:grid-cols-1 max-[615px]:grid-cols-1 max-[370px]:gap-10 max-[370px]:px-10">
+                <div id="about-item-one" className=' justify-self-center'>
                     <div className='flex align-middle justify-center mt-2'>
                         <img src={Service1} alt="first service" className='w-64 h-[200px] max-[370px]:w-48 max-[370px]:h-40' />
                     </div>
@@ -23,7 +23,7 @@ function Services(){
                         These classes cater to different preferences and levels of experience.
                     </p>
                 </div>
-                <div id="about-item-two">
+                <div id="about-item-two" className=' justify-self-center'>
                     <div className='flex align-middle justify-center'>
                         <img src={Service2} alt="first service" className='w-64 h-52 max-[370px]:w-48 max-[370px]:h-40' />
                     </div>
@@ -34,7 +34,8 @@ function Services(){
                         reduce stress, and enhance mental focus. 
                     </p>
                 </div>
-                <div id="about-item-three">
+                <div className="flex justify-center">
+                <div id="about-item-three" className=' justify-self-center'>
                     <div className='flex align-middle justify-center'>
                         <img src={Service3} alt="first service" className='w-64 h-52 max-[370px]:w-48 max-[370px]:h-40' />
                     </div>
@@ -44,6 +45,7 @@ function Services(){
                         you through various breath control techniques to improve lung capacity 
                         and reduce anxiety.
                     </p>
+                </div>
                 </div>
             </div>
         </div>
