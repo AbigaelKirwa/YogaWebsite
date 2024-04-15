@@ -13,7 +13,7 @@ function About(){
             <div id="content_main" className='pt-10'>
                 <div id="content_one" className='flex flex-row px-14 max-[936px]:flex-col max-[936px]:px-0 max-[936px]:justify-center max-[936px]:items-center'>
                     <div className='flex align-middle justify-center w-3/4 max-[980px]:mt-10 max-[936px]:w-full max-[936px]:justify-center'>
-                        <img src={About1} alt='lady floating' className='w-[70%] max-[936px]:w-[50%]'/>
+                        <img src={About1} alt='lady floating' className='w-[70%] max-[936px]:w-[50%] max-[500px]:w-[70%]'/>
                     </div>
                     <div className='w-3/4'>
                         <p className='text-justify px-3 pt-16 leading-[50px] max-[1180px]:pt-5 max-[936px]:px-0'>
@@ -28,7 +28,7 @@ function About(){
                 </div>
                 <div id="content_two" className='flex flex-row-reverse px-14 max-[936px]:flex-col max-[936px]:px-5 max-[936px]:justify-center max-[936px]:items-center'>
                     <div className='flex align-middle justify-center w-3/4 pl-40 max-[1080px]:mt-20 max-[980px]:mt-30 max-[936px]:pl-0'>
-                        <img src={About2} alt='lady floating' className='w-[70%] max-[1080px]:w-[80%] max-[936px]:w-[60%]'/>
+                        <img src={About2} alt='lady floating' className='w-[70%] max-[1080px]:w-[80%] max-[936px]:w-[60%] max-[500px]:w-[80%]'/>
                     </div>
                     <div className='w-3/4'>
                         <p className='text-justify px-3 pt-16 leading-[50px] max-[936px]:px-0'>

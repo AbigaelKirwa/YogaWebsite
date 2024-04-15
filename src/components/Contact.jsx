@@ -15,7 +15,7 @@
             <img src={ContactImage} alt="boy yoga" className='w-2/3 h-5/6 mt-10 max-[936px]:hidden' />
           </div>
           <div className='flex align-middle justify-center'>
-            <form className='flex flex-col bg-[#9AA473] w-3/4 h-[500px] px-10 pt-10 pb-5 gap-10 rounded-lg align-middle justify-center max-[936px]:w-3/4'>
+            <form className='flex flex-col bg-[#9AA473] w-3/4 h-[500px] px-10 pt-10 pb-5 gap-10 rounded-lg align-middle justify-center max-[936px]:w-3/4 max-[450px]:px-5 max-[500px]:w-[80%]'>
               <input placeholder='Name' className='px-5 py-3 rounded-lg'/>
               <input placeholder='Email' className='px-5 py-3 rounded-lg'/>
               <input placeholder='Message' className='px-5 pt-3 py-8 pb-20 rounded-lg'/>
